@@ -1,0 +1,16 @@
+.catalogoHeader {
+  background-color: var(--color_aquamarina);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*
+.catalogoHeader p {
+  color: #fff;
+}
+*/
+.catalogoHeader button {
+  color: slategrey;
+}
