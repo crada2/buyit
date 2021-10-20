@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="./styles/components/pop-up/main_pop-up.css">
     <title>pop-up</title>
 </head>
 <body>
     <container> 
-        <header>
-            <nav>
-                <button>Volver</button>
-            </nav>
+        <header class="navegador">
+            <button>Volver</button>
         </header>
         <aside>
             <img src="nombreimagen.jpg" alt="vestido rojo de mujer" />
@@ -37,12 +35,16 @@
                 <button>L</button>
                 <button>XL</button>
                 <button>XXL</button>
-                <div class="precio">
+            <footer class="footer_pop-up">
+                <article class="precio">
                     <p>Precio</p>
                     <p>25.99€</p>
-                </div>
-                <button>Comprar ya</button>
-                <button>Añadir</button>
+                </article>
+                <aside class="flex_botones">
+                <button><p class="en_linea">Comprar ya</p></button>
+                <button><p class="en_linea2">Añadir</p></button>
+                </aside>
+            </footer>
             </section>
         </article>
     </container>
