@@ -1,3 +1,16 @@
 .catalogoFooter {
     background-color: var(--color_footer);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.catalogoFooter p {
+    margin-bottom: 1%;
 }
