@@ -6,12 +6,12 @@
   background-color: var(--color_aquamarina);
   padding: 6px 6px 6px 6px;
   border-radius: 8px;
+  width: 8%;
 }
 
 .catalogoNav {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    height: 40px;
-
+    padding-top: 1.3%;
 }

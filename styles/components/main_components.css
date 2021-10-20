@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 @import './teachers.css';
 @import './catalogoStyles/main_catalogo_styles.css';
 @import './landingStyle/landingHeader.css';
 @import './landingStyle/sliderLanding.css'
 
+=======
+@import "./teachers.css";
+@import "./catalogoStyles/main_catalogo_styles.css";
+@import "./pop-up/main_pop-up.css";
+>>>>>>> cfb139cb1b706c30d52f0f5cff97aa4bae89b8a4
