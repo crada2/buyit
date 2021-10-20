@@ -1,0 +1,29 @@
+.buyButton {
+  background-color: var(--color_aquamarina);
+  padding: 6px 6px 6px 6px;
+  border-radius: 10px;
+  margin: 0.5%;
+}
+
+.card {
+  background-color: var(--fondo_card);
+  width: 30%;
+}
+
+.card img {
+  width: 99%;
+  margin-bottom: 1%;
+  border: 1px solid #000;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card footer {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  border: 1px solid var(--fondo_card);
+}
+
+.card footer article {
+  margin-right: 3%;
+}
