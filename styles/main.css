@@ -3,7 +3,6 @@
 @import 'reset.css';
 @import './variables.css';
 @import './components/main_components.css';
-@import './components/pop-up/main_pop-up.css';
 /*view port*/
 /*
 h1 {

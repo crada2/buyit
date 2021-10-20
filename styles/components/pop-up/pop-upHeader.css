@@ -1,5 +1,5 @@
 .navegador {
-    background-color: black;
+    background-color: var(--color_aquamarina);
     height: 40px;
     width: 100%;
     justify-content: space-between;

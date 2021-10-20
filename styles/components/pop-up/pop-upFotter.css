@@ -1,25 +1,22 @@
 .footer_pop-up {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .flex_botones {
-    padding-right: 10%;
-    align-items: center;
-    display: flex;
-
+  padding-right: 10%;
+  align-items: center;
+  display: flex;
 }
 
 .flex_botones button {
-    width: 110px;
-    margin-left:  5%;
-    margin-right: 5%;
-   background-color: var(--color_aquamarina)
+  width: 110px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #3c7073;
+  border-radius: 10px;
+  color: white;
 }
 
-.en_linea {
-   background-color: red;
-  
-}
+
