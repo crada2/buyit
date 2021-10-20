@@ -4,7 +4,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 /*
 .catalogoHeader p {
@@ -13,4 +13,9 @@
 */
 .catalogoHeader button {
   color: slategrey;
+}
+
+.catalogoTitulo {
+  display: flex;
+
 }
