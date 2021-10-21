@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&family=Saira&display=swap');
+
+article {
+    margin: 0%;
+}
+.quebuscashoy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    position: absolute;
+    margin-bottom: 52%;
+    /* margin-left: 0%; */
+    text-align: center;
+    line-height: 100px;
+}
+.categoria{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sub-categoria {
+    
+    height: 40%;
+    width: 83%;
+    color: #fff;
+    
+}
+.sub-categoria .ropa{
+    height: 35vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+.sub-categoria .producto{
+    padding: 5%;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 15%;
+    transition: .3s;
+    margin-top: -40%;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+.sub-categoria:hover .producto{
+    transform: rotate(-10deg);
+}

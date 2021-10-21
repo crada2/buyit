@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto&family=Saira&display=swap');
+
+.servicios{
+      /* margin: 0%; */
+      width: 100%;
+    background-color: rgb(76, 76, 202);
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      margin-top: 101%;
+      
+}
+li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    /* margin: 0 auto 14px; */
+    margin: auto 20px auto 20px;
+    display: inline-block;
+    align-items: center;
+   
+}
+.iconos_servicios {
+    display: flex;
+    /* margin: 0 40px 0 40px; */
+    width: 48px;
+    /* flex-wrap: nowrap; */
+    justify-content: space-around;
+    /* flex-direction: row; */
+    /* margin: 0; */
+    /* padding: 0; */
+    list-style: none;
+}
+.logo_icon{
+    object-fit: cover;
+    width:50%;
+    height:50%;
+    display: block;
+
+
+
+}
