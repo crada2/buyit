@@ -1,3 +1,9 @@
+/*
 @import './teachers.css';
+@import '.';
+*/
+
+@import './landingStyle/main_Landing.css';
 @import './catalogoStyles/main_catalogo_styles.css';
+@import './pop-up/main_pop-up.css';
 

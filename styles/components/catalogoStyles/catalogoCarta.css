@@ -1,13 +1,26 @@
+main {
+  margin:2%;
+}
+
+
+
+
+
 .buyButton {
+  position: relative;
   background-color: var(--color_aquamarina);
   padding: 6px 6px 6px 6px;
   border-radius: 10px;
   margin: 0.5%;
+  width: 35%;
+  height: 60%;
+  display: flex;
 }
 
 .card {
   background-color: var(--fondo_card);
   width: 30%;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .card img {
@@ -18,12 +31,32 @@
 }
 
 .card footer {
+  position: relative;
   display: flex;
   align-items: center;
-  padding: 2%;
   border: 1px solid var(--fondo_card);
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+}
+.card footer aside {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10% 2% 4% 0 ;
 }
 
-.card footer article {
-  margin-right: 3%;
+.descripcion {
+  position:absolute;
+  top:0;
+  left: 3%;
+}
+.precio {
+  position:absolute;
+  bottom: 4%;
+  left: 3%;
+  font-size: 1.3em;
+  font-weight:bold;
 }

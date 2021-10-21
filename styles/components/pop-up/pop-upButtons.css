@@ -1,0 +1,9 @@
+.tallas article p {
+    background-color: #94BEB6;
+    width: 12%;
+    padding: 5px;
+}
+.tallas article section button{
+    border: none;
+    background-color:#94BEB6 ;
+}

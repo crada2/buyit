@@ -8,65 +8,109 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <header class="container">
-      <ul>
-        <li><a href="#">inicio</a></li>
-        <li><a href="#">acerca de</a></li>
-        <p class="marca">CRADA</p>
-        <li><a href="#">servicios</a></li>
-        <li><a href="#">contacto</a></li>
+    <header class="container_nav">
+      <ul class="navbar">
+        <li class="item_navbar"><a href="#">Inicio</a></li>
+        <li class="item_navbar"><a href="#">Acerca de</a></li>
+        <li><p class="marca">Crada</p></li>
+        <li class="item_navbar"><a href="#">Servicios</a></li>
+        <li class="item_navbar"><a href="#">Contacto</a></li>
+        
       </ul>
+      
     </header>
 
     <main>
       <section class="slider">
-        <article>
+        <article class="cuadro-izquierdo">
           <h1>SHOP CRADA</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="texto_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </article>
-        <aside class="">
-          <img class="foto1_slider" src="" alt="foto_bolsas" />
+        <aside class="cuadro-derecho">
+          <img class="foto1_slider" src="./img/foto_slider_1.jpg" alt="foto_bolsas" />
         </aside>
       </section>
-      <article></article>
-      <section class="quebuscashoy">
-        <h3>QUE BUSCAS HOY?</h3>
-        <article class="categorias">
-          <ul class="categoria">
-            <li>
-              <img class="vestidos" src="" alt="" />
-              <h4 class="producto">Vestidos</h4>
-            </li>
-          </ul>
-        </article>
-        <article class="categoria">
-          <ul class="categoria">
-            <li>
-              <img class="blusas" src="" alt="" />
-              <h4 class="producto">Blusas</h4>
-            </li>
-          </ul>
-        </article>
-        <article class="categoria">
-          <ul class="categoria">
-            <li>
-              <img class="pantalones" src="" alt="" />
-              <h4 class="producto">Pantalones</h4>
-            </li>
-          </ul>
-        </article>
-      </section>
+
+      <article>
+        <section class="quebuscashoy">
+          <h3>QUE BUSCAS HOY?</h3>
+          <article class="categorias">
+            <ul class="categoria">
+              <li>
+                <img class="vestidos" src="" alt="" />
+                <h4 class="producto">Vestidos</h4>
+              </li>
+            </ul>
+          </article>
+          <article class="categoria">
+            <ul class="categoria">
+              <li>
+                <img class="blusas" src="" alt="" />
+                <h4 class="producto">Blusas</h4>
+              </li>
+            </ul>
+          </article>
+          <article class="categoria">
+            <ul class="categoria">
+              <li>
+                <img class="pantalones" src="" alt="" />
+                <h4 class="producto">Pantalones</h4>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </article>
+      
       <section class="servicios">
         <ul class="iconos_servicios">
           <li>
-            <p></p>
+             <img class="logo_icon" src="./img/Icon_devolucion.svg" alt="servicio_devolucion">
+             <span class="bold"></span>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <img class="logo_icon" src="img/icon_envio_gratis.svg" alt="servicio_envio_gratis">
+             <p class="service">Envío GRATIS a partir de 50€</p>
+          </li>
+          <li>
+            <img class="logo_icon" src="img/icon_ubication.svg" alt="ubicacion_tienda">
+             <p class="service">Encuentra TU TIENDA aquí</p>
+          </li>
+          <li>
+            <img class="logo_icon" src="img//icon_pagoseguro.svg" alt="pago_seguro">
+             <p class="service">Pago SEGURO encriptado</p>
+          </li>
+          <li>
+            <img class="logo_icon" src="img/icon_phone_contact.svg" alt="atencion_cliente">
+             <p class="service">Atención AL CLIENTE gratuita</p>
+          </li>
         </ul>
       </section>
     </main>
+    <footer>
+      <section class="redes-footer">
+        <img class="logo_redes" src="img/facebooksvg.svg" alt="logo_facebook">
+        <img class="logo_redes" src="img/youtube.svg" alt="logo_youtube">
+        <img class="logo_redes" src="img/twitter.svg" alt="logo_twitter">
+        <img class="logo_redes" src="img/instagram_icon.svg" alt="logo_instagram">
+        <img class="logo_redes" src="img/icon_tiktok.svg" alt="logo_tiktok">
+      </section>
+      <article class="terminos_condiciones">
+        <ul>
+          <li>
+              <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+              <a href="#"> Terms of Use CA</a>
+          </li>
+          <li>
+              <a href="#">Supply Chain Act </a>
+          </li>
+          <li>
+              <a href="#">Cookie Preferences</a>
+          </li>
+        </ul>
+      </article>
+    
+    </footer>
   </body>
 </html>

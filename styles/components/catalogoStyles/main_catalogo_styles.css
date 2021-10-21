@@ -1,3 +1,15 @@
 @import "./catalogoHeader.css";
 @import "./catalogoNav.css";
 @import "./catalogoCarta.css";
+@import "./catalogoFooter.css";
+
+html {
+    --background_color: #fff;
+    --color_aquamarina: #3c7073;
+    --fondo_card: #e6f0e2;
+    --color_footer: #94BEB6;
+  }
+  
+  .container {
+    height: 100vh;
+  }
