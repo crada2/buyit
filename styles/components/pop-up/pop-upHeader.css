@@ -1,8 +1,16 @@
 .navegador {
     background-color: var(--color_aquamarina);
-    height: 40px;
+    height: 3vh;
     width: 100%;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
+.navegador button {
+    background-color: var(--color_aquamarina);
+    border: none;
+    align-items:center;
+    color: white;
+}

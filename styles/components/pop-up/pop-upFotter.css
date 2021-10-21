@@ -5,18 +5,13 @@
 }
 
 .flex_botones {
-  padding-right: 10%;
   align-items: center;
-  display: flex;
+  align-content: space-between;
 }
 
 .flex_botones button {
-  width: 110px;
-  margin-left: 5%;
-  margin-right: 5%;
   background-color: #3c7073;
   border-radius: 10px;
   color: white;
 }
-
 

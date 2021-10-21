@@ -1,0 +1,17 @@
+.descripcion {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    width:30%;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.foto_popup {
+    border-radius: 5%;
+    width: 80%;
+    height: 25vh;
+}
+

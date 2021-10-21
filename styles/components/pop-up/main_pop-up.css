@@ -2,6 +2,8 @@
 @import "./pop-upDescripcion.css";
 @import "./pop-upButtons.css";
 @import "./pop-upFotter.css";
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:ital@1&family=Saira:ital,wght@0,300;1,300&display=swap');
+
 
 html {
     --background_color: #fff;
@@ -10,4 +12,58 @@ html {
     --color_footer: #94BEB6;
   }
 
-  
+* {
+    font-family: "Roboto";
+}
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: ;
+}
+
+.containerPopUp {
+    background-color: var(--fondo_card);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (max-width:600px) {
+    * {
+        overflow: hidden;
+    }
+    main { display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    aside {
+        margin-bottom: 10%;
+        width: 100%;
+        
+    }
+    .foto_popup {
+        width: 50%;
+        height: 40vh;
+
+    }
+    article {
+        justify-content: center;
+        margin:0 10px;
+    }
+    .navegador {
+        height: 4vh;
+    }
+
+}
+@media (min-width:320px) {
+    .foto_popup {
+        width: 150px;
+        height: 280px;
+        margin-top: 5px ;
+    }
+    article {
+        margin: 0 20px;
+    }
+}
