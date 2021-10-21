@@ -10,3 +10,6 @@ html {
     --color_footer: #94BEB6;
   }
   
+  .container {
+    height: 100vh;
+  }

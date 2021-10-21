@@ -13,4 +13,11 @@
 
 .catalogoFooter p {
     margin-bottom: 1%;
+    display: flex;
+    text-align: center;
+}
+
+.catalogoFooter article {
+    display: flex;
+    justify-content: center;
 }
