@@ -1,8 +1,9 @@
-@import "./teachers.css";
-@import "./catalogoStyles/main_catalogo_styles.css";
-@import "./pop-up/main_pop-up.css";
-@import "./landingStyle/main_landing_style.css";
-@import './landingStyle/landingHeader.css';
-@import './landingStyle/sliderLanding.css';
-@import './landingStyle/sectionCategoria.css';
-@import './landingStyle/sectionServicios.css';
+/*
+@import './teachers.css';
+@import '.';
+*/
+
+@import './landingStyle/main_Landing.css';
+@import './catalogoStyles/main_catalogo_styles.css';
+@import './pop-up/main_pop-up.css';
+
