@@ -4,3 +4,7 @@
 @import './sectionRedes.css';
 @import './sectionServicios.css';
 @import './footerSection.css';
+
+.container {
+    height: 100vh;
+  }
