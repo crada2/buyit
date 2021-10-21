@@ -19,10 +19,9 @@
 
 .catalogoTitulo {
   display: flex;
-  margin-bottom: 1%;
   align-items: flex-end;
+  margin-bottom: 1%;
 }
-
 .catalogoTitulo p {
   font-size: 1.5em;
 }
